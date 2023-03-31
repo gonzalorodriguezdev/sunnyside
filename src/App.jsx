@@ -72,13 +72,101 @@ function App() {
             </p>
           </figure>
         </section>
+        <section className="section">
+          <article className="section__testimonials">
+            <h2 className="testimonials__title">Client testimonials</h2>
+            <div className="testimonial">
+              <img alt="" className="testimonial__emily" src="" />
+              <p className="testimonial__paragraph">
+                We put our trust in Sunnyside and they delivered, making sure our needs were met and
+                deadlines were always hit.
+              </p>
+              <div className="testimonial__name">Emily R.</div>
+              <div className="testimonial__job">Marketing Director</div>
+            </div>
+            <div className="testimonial">
+              <img alt="" className="testimonial__thomas" src="" />
+              <p className="testimonial__paragraph">
+                Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made
+                it a satisfying and enjoyable experience.
+              </p>
+              <div className="testimonial__name">Thomas S.</div>
+              <div className="testimonial__job">Chief Operating Officer</div>
+            </div>
+            <div className="testimonial">
+              <img alt="" className="testimonial__jennie" src="" />
+              <p className="testimonial__paragraph">
+                Incredible end result! Our sales increased over 400% when we worked with Sunnyside.
+                Highly recommended!
+              </p>
+              <div className="testimonial__name">Jennie F.</div>
+              <div className="testimonial__job">Business Owner</div>
+            </div>
+          </article>
+        </section>
+        <section className="section">
+          <article className="images">
+            <img
+              alt=""
+              className="images__img"
+              src="./src/assets/images/mobile/image-gallery-milkbottles.jpg"
+            />
+            <img
+              alt=""
+              className="images__img"
+              src="./src/assets/images/mobile/image-gallery-orange.jpg"
+            />
+            <img
+              alt=""
+              className="images__img"
+              src="./src/assets/images/mobile/image-gallery-cone.jpg"
+            />
+            <img
+              alt=""
+              className="images__img"
+              src="./src/assets/images/mobile/image-gallery-sugar-cubes.jpg"
+            />
+          </article>
+        </section>
       </main>
-      Client testimonials We put our trust in Sunnyside and they delivered, making sure our needs
-      were met and deadlines were always hit. Emily R. Marketing Director Sunnyside’s enthusiasm
-      coupled with their keen interest in our brand’s success made it a satisfying and enjoyable
-      experience. Thomas S. Chief Operating Officer Incredible end result! Our sales increased over
-      400% when we worked with Sunnyside. Highly recommended! Jennie F. Business Owner About
-      Services Projects Contact
+      <footer className="footer">
+        <div className="footer__wrapper">
+          <figure className="footer__logo">
+            <img alt="" className="footer__img" src="./src/assets/images/logo-green.svg" />
+          </figure>
+          <ul className="footer__list">
+            <li>
+              <a className="footer_link" href="#">
+                About
+              </a>
+            </li>
+            <li>
+              <a className="footer_link" href="#">
+                Services
+              </a>
+            </li>
+            <li>
+              <a className="footer_link" href="#">
+                Projects
+              </a>
+            </li>
+          </ul>
+          <article className="footer__media">
+            <img alt="" className="footer__facebook" src="./src/assets/images/icon-facebook.svg" />
+            <img
+              alt=""
+              className="footer__instagram"
+              src="./src/assets/images/icon-instagram.svg"
+            />
+            <img alt="" className="footer__twitter" src="./src/assets/images/icon-twitter.svg" />
+            <img
+              alt=""
+              className="footer__pinterest"
+              src="./src/assets/images/icon-pinterest.svg"
+            />
+          </article>
+        </div>
+      </footer>
     </main>
   );
 }

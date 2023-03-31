@@ -17,12 +17,13 @@
 *{
   box-sizing: border-box;
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
   /* outline: 1px solid red; */
 }
 
 .App{
   font-family: var(--ff-primary);
+  max-width: 900px;
 }
 
 .header{
@@ -31,6 +32,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 500px;
+  max-width: 700px;
   padding: 2rem 1.5rem;
 }
 
@@ -73,6 +75,7 @@
   display: flex;
   flex-direction: column;
   text-align: center;
+  max-width: 900px;
 }
 
 .section__img{
@@ -129,6 +132,7 @@
   flex-direction: column;
   gap: 30px;
   height: 550px;
+  max-width: 700px;
   padding-top: 23rem ;
 }
 
@@ -141,6 +145,7 @@
   flex-direction: column;
   gap: 30px;
   height: 550px;
+  max-width: 700px;
   padding-top: 23rem ;
 }
 
@@ -170,4 +175,120 @@
   width: 90%;
   margin: 0 auto;
   line-height: 1.5;
+}
+
+.section__testimonials{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 3rem 0;
+}
+
+.testimonials__title{
+  width: 100%;
+  font-family: var(--ff-second);
+  color: var(--grayish-blue);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 15px;
+}
+
+.testimonial{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  width: 80%;
+  margin: 0 auto;
+  line-height: 1.5;
+  color: var(--very-dark-grayish-blue);
+}
+
+.testimonial__emily{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-image: url('./assets/images/image-emily.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.testimonial__jennie{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-image: url('./assets/images/image-jennie.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.testimonial__thomas{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-image: url('./assets/images/image-thomas.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.testimonial__paragraph{
+  color: var(--very-dark-grayish-blue);
+  margin-top: 20px;
+}
+
+.testimonial__name{
+  color: var(--very-dark-desaturated-blue);
+  font-family: var(--ff-second);
+  font-weight: 800;
+  font-size: 17px;
+  margin-top: 30px;
+}
+
+.testimonial__job{
+  color: var(--grayish-blue);
+  font-size: 14px;
+}
+
+.images{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.images__img{
+  width: 50%;
+  max-width: 225px;
+}
+
+/*Footer*/
+
+.footer__wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 4rem 0;
+  height: 300px;
+  background-color: #90d4c5;
+}
+
+.footer__img{
+  height: 30px;
+}
+
+.footer__list{
+  display: flex;
+  list-style: none;
+  gap: 50px;
+}
+
+.footer_link{
+  text-decoration: none;
+  color: var(--dark-moderate-cyan);
+}
+
+.footer__media{
+  display: flex;
+  gap: 20px;
+  padding-top: 30px;
 }
