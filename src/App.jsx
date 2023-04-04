@@ -18,12 +18,12 @@ function App() {
         </section>
       </header>
       <main className="main">
-        <section className="section">
+        <section className="section  section__img--egg">
           <figure className="section__figure">
             <img
               alt=""
               className="section__img"
-              src="./src/assets/images/mobile/image-transform.jpg"
+              src="./src/assets/images/desktop/image-transform.jpg"
             />
           </figure>
           <article className="section__texts">
@@ -42,7 +42,7 @@ function App() {
             <img
               alt=""
               className="section__img"
-              src="./src/assets/images/mobile/image-stand-out.jpg"
+              src="./src/assets/images/desktop/image-stand-out.jpg"
             />
           </figure>
           <article className="section__texts">
